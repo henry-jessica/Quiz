@@ -12,7 +12,7 @@
 
 ## Authors
 
-* **Jessica Henry** - *Software Development II * - [GitHub](https://github.com/henry-jessica)
+* **Jessica Henry** - *Software Development II* - [GitHub](https://github.com/henry-jessica)
 
 * **Vivion Kinsella** -  *IT SLigo Lecturer* 
 
