@@ -74,35 +74,47 @@ namespace ConsoleApp16
             string productPrice;
 
 
-            if (product == "bananas")
+             switch (product)
             {
-                productPrice = "1.50";
-            }
-            else if (product == "spuds")
-            {
-                productPrice = "2.50";
-            }
-            else if (product == "pizza")
-            {
-                productPrice = "3.50";
-            }
-            else if (product == "apples")
-            {
-                productPrice = "3.00";
-            }
-            else if (product == "tomatoes")
-            {
-                productPrice = "3.00";
-            }
+                case "bananas":
+                    {
+                        productPrice = "1.50";
+                        break;
+                    }
+                case "spuds":
+                    {
+                        productPrice = "1.50";
+                        break;
+                    }
+                case "pizza":
+                    {
+                        productPrice = "3.50";
+                        break;
+                    }
+                case "apples":
+                    {
+                        productPrice = "3.00";
+                        break;
+                    }
+                case "tomatoes":
+                    {
+                        productPrice = "3.00";
+                        break;
+                    }
 
-            else if (product == "oranges")
-            {
-                productPrice = "-1";
-            }
-            else
-            {
-                productPrice = "-1";
-            }
+                case "oranges":
+                    {
+                        productPrice = "3.00";
+                        break;
+                    }
+
+
+                default:
+                    {
+                        productPrice = "-1";
+                        break;
+
+                    }
 
             //string price = string.Format("{0:n2}", productPrice);
 
