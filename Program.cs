@@ -73,7 +73,7 @@ namespace ConsoleApp16
 
 
 
-            switch (product)
+            switch (product.ToLower)
             {
                 case "bananas":
                     {
