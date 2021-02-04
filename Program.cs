@@ -65,8 +65,6 @@ namespace ConsoleApp16
             }
 
 
-
-
             return underAge;
         }
         static public decimal GetPrice(string product)
