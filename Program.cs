@@ -75,10 +75,6 @@ namespace ConsoleApp16
              switch (product.ToLower)
             {
                 case "bananas":
-                    {
-                        productPrice = 1.50m;
-                        break;
-                    }
                 case "spuds":
                     {
                         productPrice = 1.50m;
