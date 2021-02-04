@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,15 +14,14 @@ namespace ConsoleApp16
             /*
             Console.WriteLine(IsLeapYear(2000));
             Console.WriteLine(IsUnderAge(18));
-            Console.WriteLine(GetPrice("pizza"));
-            
+           
             int[] numbers = { 1, 2, 3, 4, 5 };
             Console.WriteLine(CountFives(numbers));
-            
             int[] numbers = {20,5};
             Console.WriteLine(GetMax(numbers));
+            */
+            Console.WriteLine(GetPrice("pizza"));
 
-    */
             Console.ReadKey();
         }
 
@@ -65,19 +64,24 @@ namespace ConsoleApp16
             }
 
 
+
+
             return underAge;
         }
         static public decimal GetPrice(string product)
         {
             decimal productPrice;
 
-
-             switch (product.ToLower)
+            switch (product.ToLower())
             {
                 case "bananas":
-                case "spuds":
                     {
                         productPrice = 1.50m;
+                        break;
+                    }
+                case "spuds":
+                    {
+                        productPrice = 2.50m;
                         break;
                     }
                 case "pizza":
@@ -85,9 +89,9 @@ namespace ConsoleApp16
                         productPrice = 3.50m;
                         break;
                     }
-                 case "apples":
-                 case "tomatoes":
-                 case "oranges":
+                case "apples":
+                case "tomatoes":
+                case "oranges":
                     {
                         productPrice = 3.00m;
                         break;
@@ -100,7 +104,7 @@ namespace ConsoleApp16
 
                     }
 
-            //string price = string.Format("{0:n2}", productPrice);
+            }
 
             return productPrice;
         }
@@ -149,7 +153,7 @@ namespace ConsoleApp16
 
             for (int i = 0; i < numbers.Length; i++)
             {
-                if (i == 0)
+                if (i == 0) // only to set the value 
                 {
                     max = numbers[i];
                 }
