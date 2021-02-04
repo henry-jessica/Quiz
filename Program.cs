@@ -69,39 +69,39 @@ namespace ConsoleApp16
 
             return underAge;
         }
-        static public string GetPrice(string product)
+        static public decimal GetPrice(string product)
         {
-            string productPrice;
+            decimal productPrice;
 
 
              switch (product.ToLower)
             {
                 case "bananas":
                     {
-                        productPrice = "1.50";
+                        productPrice = 1.50m;
                         break;
                     }
                 case "spuds":
                     {
-                        productPrice = "1.50";
+                        productPrice = 1.50m;
                         break;
                     }
                 case "pizza":
                     {
-                        productPrice = "3.50";
+                        productPrice = 3.50m;
                         break;
                     }
                  case "apples":
                  case "tomatoes":
                  case "oranges":
                     {
-                        productPrice = "3.00";
+                        productPrice = 3.00m;
                         break;
                     }
 
                 default:
                     {
-                        productPrice = "-1";
+                        productPrice = -1;
                         break;
 
                     }
