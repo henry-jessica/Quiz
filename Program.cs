@@ -91,23 +91,13 @@ namespace ConsoleApp16
                         productPrice = "3.50";
                         break;
                     }
-                case "apples":
+                 case "apples":
+                 case "tomatoes":
+                 case "oranges":
                     {
                         productPrice = "3.00";
                         break;
                     }
-                case "tomatoes":
-                    {
-                        productPrice = "3.00";
-                        break;
-                    }
-
-                case "oranges":
-                    {
-                        productPrice = "3.00";
-                        break;
-                    }
-
 
                 default:
                     {
