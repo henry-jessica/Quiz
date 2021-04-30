@@ -1,7 +1,5 @@
 # Quiz  - Software Development 
 
-### Throughout the second semester, I will update the quiz questions in this repository.
-
 <p aling="center">
 <a>
   Csharp Quiz 
